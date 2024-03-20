@@ -67,7 +67,7 @@ along with your submitted code (coming from the previous step) during the interv
 
 
 ```
-$ pip install pandas numpy scikit-learn streamlit jupyterlab
+$ pip install -r requirements.txt
 
 ```
 
@@ -75,7 +75,7 @@ $ pip install pandas numpy scikit-learn streamlit jupyterlab
 
 Machine Learning pipeline 
 to identify customers that should be called within the weekly cohort and provide
-recommendations on how to reduce the number of calls
+recommendations on how to reduce the number of calls. Below command will run the streamlit applcation use the ML model.
 
 ```
 $ streamlit run app.py
