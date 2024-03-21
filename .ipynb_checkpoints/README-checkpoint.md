@@ -75,7 +75,7 @@ $ pip install -r requirements.txt
 
 Machine Learning pipeline 
 to identify customers that should be called within the weekly cohort and provide
-recommendations on how to reduce the number of calls. Below command will run the streamlit applcation use the ML model.
+recommendations on how to reduce the number of calls. Below command will run the streamlit applcation which uses the ML model trained previously.
 
 ```
 $ streamlit run app.py
